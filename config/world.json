@@ -1,0 +1,13 @@
+{
+  "bounds": [-4.0, -3.0, 4.0, 3.0],
+  "resolution": 0.05,
+  "robot_radius": 0.29,
+  "planning_margin": 0.12,
+  "start": [-3.0, -2.0],
+  "goal": [3.0, 2.0],
+  "obstacles": [
+    {"name": "box_a", "kind": "box", "x": -0.7, "y": -0.5, "sx": 1.0, "sy": 1.8},
+    {"name": "cylinder_b", "kind": "cylinder", "x": 0.9, "y": 0.8, "radius": 0.45},
+    {"name": "box_c", "kind": "box", "x": 2.0, "y": -1.1, "sx": 0.7, "sy": 1.1}
+  ]
+}
